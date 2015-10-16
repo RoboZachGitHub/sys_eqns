@@ -2,7 +2,10 @@ import numpy as np
 import scipy.optimize
 import math
 
-
+# solves the two hanging masses problem in A Survey of Computational Physics
+# page 155ish
+# haven't checked the answer, need to go on and solve for theta 1, 2, and 3
+# need to make a plot of the system
 
 def func_to_opt(vector_of_x_vars):
 
